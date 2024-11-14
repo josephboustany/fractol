@@ -48,16 +48,19 @@ Run the program with:
 
 ### Controls
 
-- **Zoom In/Out**: `+` and `-` keys on the numpad
+- **Zoom In/Out**: `+` and `-` keys on the numpad or scroll the wheell of the mouse
 - **Pan**: Arrow keys or mouse dragging
-- **Reset**: `R`
 - **Exit**: `ESC`
+- **Displays the Mandelbrot set**: `./fractol m`
+- **Displays the Julia set where a=Real[z] and b =Img[z]**: `./fractol j a b`
+- **Increase/Decrease the number of iterations**: `PgUp/PgDn keys`
+- **Modify the complex number c**: `Home/End keys`
 
 ## Requirements
 
 - MiniLibX library
 - OpenGL
-- Compatible with macOS and Linux
+- Compatible with Linux
 
 ## Project Goals
 
